@@ -44,7 +44,7 @@ header .image {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .header-top nav ul {
@@ -53,9 +53,8 @@ header .image {
 
 .header-top nav ul li {
     display: inline-block;
+    margin-right: 15px;
     vertical-align: middle;
-    list-style: none;
-    margin-right: 25px;
 }
 
 .header-top div {
@@ -66,10 +65,10 @@ header .image {
 
 header a{
     text-decoration: none;
-    color: #d8dee2;
+    color: #eaf1f5;
 }
 
-.header-content-container {
+.header-container-content {
     position: absolute;
     top: 0;
     width: 100%;
@@ -86,19 +85,19 @@ header a{
 .header-content h1 {
     color: white;
     line-height: 65px;
-    font-size: 3em;
+    font-size: 50px;
     font-weight: lighter;
-    font-family: Verdana;
+    font-family: sans-serif;
 }
 
-.guide {
-    color: white;
-    font-size: 1.4em;
+.center {
+    color: #eaf1f5;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .button1, .button2 {
-   color: white;
+   color: #eaf1f5;
    padding: 15px 20px;
    display: flex;
    justify-content: center;
@@ -112,73 +111,114 @@ header a{
 }
 
 .button2 {
-   border: 1px solid #d6d1cf;
+   border: 1px solid #eaf1f5;
    border-radius: 5px;
 }
 .button3{
     width: 120px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border:.5px solid rgb(154, 151, 151) ;
-    border-radius: 3px;
+    background-color: transparent;
+    border:.5px solid rgb(131, 127, 127) ;
+    border-radius: 5px;
     justify-content: center;
     align-items: center;
     margin-right: 15px;
     color: white;
    
 }
-.btn-container{
+.button-container{
     display: flex;
 }
 .button-svg{
-    height: 12px;
+    height: 15px;
 }
 .circle-svg{
-    height: 15px;
+    height: 20px;
 }
 
 .button4{
-    width: 120px;
+    width: 130px;
     height: 40px;
-    background-color: #6e42f8;
-    border: none;
-    border-radius: 3px;
     color: white;
-    
+    background-color: #6135e4;
+    border-radius: 5px;
+    border: none;
 }
 
-.header-title {
-    margin-bottom: 20px;
-}
-
-
-
-.header-buttom{
+.header-end{
     position: absolute;
     bottom: -15px;
     width: 100%;
 }
 
-.header-buttom-content{ 
+.header-end-content{ 
     width: 200px;
     color: white;  
     margin: 0 auto;
     text-align: center;
 }
 
-.buttom-sentence{
+.end{
     color: silver;
     font-size: 13px;
 }
 
-.buttom-circle{
+.end-circle{
+    display: flex;
     background-color: #6e42f8;
     width: 30px;
     height: 30px;
-    border-radius: 100%;
-    margin: 0 auto;
-
-    display: flex;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
+    border-radius: 100%;
+}
+
+.definition {
+    margin-bottom: 30px;
+}
+
+main{
+    width: 780px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+.under {
+    line-height: 25px;
+    margin: auto;
+    font-size: 14px;
+    width: 60%;
+}
+
+.card-container {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.card {
+    border-radius: 3%;
+    box-shadow: 0px 1px 2px #d6d1cf;
+    width: 30%;
+    display: inline-block;
+    margin: 0 10px 25px 10px;
+    background-color: white;
+}
+
+.card-content {
+    padding-left: 15px;
+}
+
+.card-content p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.card img {
+    width:100%;
+    height:200px; 
+    border-radius: 3% 3% 0 0;
 }
