@@ -224,14 +224,6 @@ main{
 }
 
 @media screen and (max-width: 992px) {
-    .card {
-        border-radius: 3%;
-        box-shadow: 1px 1px 2px #f3ebe8;
-        width: 50%;
-        display: inline-block;
-        margin: 0 10px 25px 10px;
-        background-color: white;
-    }
     header .image {
         position: absolute;
         width: 100%;
@@ -240,6 +232,16 @@ main{
         z-index: -1;
         top: 0;
     }
+
+    .card {
+        border-radius: 3%;
+        box-shadow: 1px 1px 2px #f3ebe8;
+        width: 50%;
+        display: inline-block;
+        margin: 0 10px 25px 10px;
+        background-color: white;
+    }
+   
     
 }
 
@@ -271,6 +273,14 @@ main{
         width:350px;
         height:350px; 
         border-radius: 3% 3% 0 0;
+    }
+
+    .header-end-content{ 
+        width: 200px;
+        color: white;  
+        /* margin: auto; */
+        text-align: center;
+        margin-left: 350px;
     }
     
 }
