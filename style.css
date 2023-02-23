@@ -12,6 +12,7 @@ body{
     
 }
 
+/* header */
 .title {
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -178,6 +179,7 @@ header a{
     margin-bottom: 30px;
 }
 
+/* Partie principale */
 main{
     width: 780px;
     margin: auto;
@@ -223,6 +225,45 @@ main{
     border-radius: 3% 3% 0 0;
 }
 
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-column{
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-column h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.footer-container{
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+.footer-container .footer-row .footer-column ul{
+    list-style: none;
+}
+
+.contact{
+    margin-left: 50px;
+}
+
+
+/* Controle de tablette */
 @media screen and (max-width: 992px) {
     header .image {
         position: absolute;
@@ -241,10 +282,16 @@ main{
         margin: 0 10px 25px 10px;
         background-color: white;
     }
+
+    .footer-column{
+        width: 50%;
+        margin-bottom: 30px;
+    }
    
     
 }
 
+/* Controle de mobile */
 @media  screen and (max-width: 768px ) {
     header .image {
         position: absolute;
@@ -281,6 +328,17 @@ main{
         /* margin: auto; */
         text-align: center;
         margin-left: 350px;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        width: 900px;
+    }
+
+    .footer-column{
+        width: 35%;
+        margin-bottom: 30px;
     }
     
 }
